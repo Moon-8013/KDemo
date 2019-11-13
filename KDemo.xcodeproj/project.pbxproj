@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1635F01620634B63001AC9BD /* kData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1635F01520634B63001AC9BD /* kData.plist */; };
+		1640468B2318CEE800E346C3 /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1640468A2318CEE800E346C3 /* AnimationController.m */; };
 		16441BCC2061EE2C00D823FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16441BCB2061EE2C00D823FB /* AppDelegate.m */; };
 		16441BCF2061EE2C00D823FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16441BCE2061EE2C00D823FB /* ViewController.m */; };
-		16441BD22061EE2C00D823FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16441BD02061EE2C00D823FB /* Main.storyboard */; };
 		16441BD42061EE2C00D823FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16441BD32061EE2C00D823FB /* Assets.xcassets */; };
 		16441BD72061EE2C00D823FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16441BD52061EE2C00D823FB /* LaunchScreen.storyboard */; };
 		16441BDA2061EE2C00D823FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16441BD92061EE2C00D823FB /* main.m */; };
 		16441BE42061EE2C00D823FB /* KDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16441BE32061EE2C00D823FB /* KDemoTests.m */; };
 		16441BEF2061EE2C00D823FB /* KDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16441BEE2061EE2C00D823FB /* KDemoUITests.m */; };
+		1663ED49206CC29F00F94599 /* KtimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1663ED48206CC29F00F94599 /* KtimeView.m */; };
+		1663ED4C206CDE3A00F94599 /* KZhutaiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1663ED4B206CDE3A00F94599 /* KZhutaiView.m */; };
+		16F28BE323790AC800B51844 /* ConcreteBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F28BE223790AC800B51844 /* ConcreteBuild.m */; };
+		16F28BE623790B4C00B51844 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F28BE523790B4C00B51844 /* Director.m */; };
+		16F28BEA2379306500B51844 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F28BE92379306500B51844 /* ColorView.m */; };
+		16F28BEE2379339D00B51844 /* ColorViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F28BED2379339D00B51844 /* ColorViewAdapter.m */; };
+		16F28BF12379351800B51844 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F28BF02379351800B51844 /* Model.m */; };
+		16F28BF7237936AB00B51844 /* ModelViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F28BF6237936AB00B51844 /* ModelViewAdapter.m */; };
+		EDD4A2A37D4F5EDBCD0929D5 /* libPods-KDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D89573E8E3454D6A29BA07E /* libPods-KDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1635F01520634B63001AC9BD /* kData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kData.plist; sourceTree = "<group>"; };
+		164046892318CEE800E346C3 /* AnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		1640468A2318CEE800E346C3 /* AnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
 		16441BC72061EE2C00D823FB /* KDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16441BCA2061EE2C00D823FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16441BCB2061EE2C00D823FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		16441BCD2061EE2C00D823FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		16441BCE2061EE2C00D823FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		16441BD12061EE2C00D823FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16441BD32061EE2C00D823FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16441BD62061EE2C00D823FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16441BD82061EE2C00D823FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +63,27 @@
 		16441BEA2061EE2C00D823FB /* KDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16441BEE2061EE2C00D823FB /* KDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDemoUITests.m; sourceTree = "<group>"; };
 		16441BF02061EE2C00D823FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1663ED47206CC29F00F94599 /* KtimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KtimeView.h; sourceTree = "<group>"; };
+		1663ED48206CC29F00F94599 /* KtimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KtimeView.m; sourceTree = "<group>"; };
+		1663ED4A206CDE3A00F94599 /* KZhutaiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZhutaiView.h; sourceTree = "<group>"; };
+		1663ED4B206CDE3A00F94599 /* KZhutaiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZhutaiView.m; sourceTree = "<group>"; };
+		16F28BE023790A5700B51844 /* Bulider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bulider.h; sourceTree = "<group>"; };
+		16F28BE123790AC800B51844 /* ConcreteBuild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteBuild.h; sourceTree = "<group>"; };
+		16F28BE223790AC800B51844 /* ConcreteBuild.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteBuild.m; sourceTree = "<group>"; };
+		16F28BE423790B4C00B51844 /* Director.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		16F28BE523790B4C00B51844 /* Director.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
+		16F28BE82379306500B51844 /* ColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		16F28BE92379306500B51844 /* ColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
+		16F28BEB237930E400B51844 /* TargetProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetProtocol.h; sourceTree = "<group>"; };
+		16F28BEC2379339D00B51844 /* ColorViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorViewAdapter.h; sourceTree = "<group>"; };
+		16F28BED2379339D00B51844 /* ColorViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorViewAdapter.m; sourceTree = "<group>"; };
+		16F28BEF2379351800B51844 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		16F28BF02379351800B51844 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		16F28BF5237936AB00B51844 /* ModelViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelViewAdapter.h; sourceTree = "<group>"; };
+		16F28BF6237936AB00B51844 /* ModelViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelViewAdapter.m; sourceTree = "<group>"; };
+		390D3F8E7CCE2F36D7790341 /* Pods-KDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KDemo/Pods-KDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5D89573E8E3454D6A29BA07E /* libPods-KDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D727FA286AA15F7293730FD /* Pods-KDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KDemo/Pods-KDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD4A2A37D4F5EDBCD0929D5 /* libPods-KDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +112,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0105FACFFEDE16937F77CE18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D727FA286AA15F7293730FD /* Pods-KDemo.debug.xcconfig */,
+				390D3F8E7CCE2F36D7790341 /* Pods-KDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		164046882318CEC300E346C3 /* 核心动画 */ = {
+			isa = PBXGroup;
+			children = (
+				164046892318CEE800E346C3 /* AnimationController.h */,
+				1640468A2318CEE800E346C3 /* AnimationController.m */,
+			);
+			path = "核心动画";
+			sourceTree = "<group>";
+		};
 		16441BBE2061EE2C00D823FB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +137,8 @@
 				16441BE22061EE2C00D823FB /* KDemoTests */,
 				16441BED2061EE2C00D823FB /* KDemoUITests */,
 				16441BC82061EE2C00D823FB /* Products */,
+				0105FACFFEDE16937F77CE18 /* Pods */,
+				BB06D1EE8967ABED0237F5BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +155,22 @@
 		16441BC92061EE2C00D823FB /* KDemo */ = {
 			isa = PBXGroup;
 			children = (
+				16F28BE72379304C00B51844 /* 适配器模式 */,
+				16F28BDF237909BB00B51844 /* 建造者模式 */,
+				164046882318CEC300E346C3 /* 核心动画 */,
+				1635F01520634B63001AC9BD /* kData.plist */,
 				16441BCA2061EE2C00D823FB /* AppDelegate.h */,
 				16441BCB2061EE2C00D823FB /* AppDelegate.m */,
 				16441BCD2061EE2C00D823FB /* ViewController.h */,
 				16441BCE2061EE2C00D823FB /* ViewController.m */,
-				16441BD02061EE2C00D823FB /* Main.storyboard */,
 				16441BD32061EE2C00D823FB /* Assets.xcassets */,
 				16441BD52061EE2C00D823FB /* LaunchScreen.storyboard */,
 				16441BD82061EE2C00D823FB /* Info.plist */,
 				16441BD92061EE2C00D823FB /* main.m */,
+				1663ED47206CC29F00F94599 /* KtimeView.h */,
+				1663ED48206CC29F00F94599 /* KtimeView.m */,
+				1663ED4A206CDE3A00F94599 /* KZhutaiView.h */,
+				1663ED4B206CDE3A00F94599 /* KZhutaiView.m */,
 			);
 			path = KDemo;
 			sourceTree = "<group>";
@@ -132,6 +193,42 @@
 			path = KDemoUITests;
 			sourceTree = "<group>";
 		};
+		16F28BDF237909BB00B51844 /* 建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				16F28BE023790A5700B51844 /* Bulider.h */,
+				16F28BE123790AC800B51844 /* ConcreteBuild.h */,
+				16F28BE223790AC800B51844 /* ConcreteBuild.m */,
+				16F28BE423790B4C00B51844 /* Director.h */,
+				16F28BE523790B4C00B51844 /* Director.m */,
+			);
+			path = "建造者模式";
+			sourceTree = "<group>";
+		};
+		16F28BE72379304C00B51844 /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				16F28BE82379306500B51844 /* ColorView.h */,
+				16F28BE92379306500B51844 /* ColorView.m */,
+				16F28BEB237930E400B51844 /* TargetProtocol.h */,
+				16F28BEC2379339D00B51844 /* ColorViewAdapter.h */,
+				16F28BED2379339D00B51844 /* ColorViewAdapter.m */,
+				16F28BF5237936AB00B51844 /* ModelViewAdapter.h */,
+				16F28BF6237936AB00B51844 /* ModelViewAdapter.m */,
+				16F28BEF2379351800B51844 /* Model.h */,
+				16F28BF02379351800B51844 /* Model.m */,
+			);
+			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		BB06D1EE8967ABED0237F5BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D89573E8E3454D6A29BA07E /* libPods-KDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16441BF32061EE2C00D823FB /* Build configuration list for PBXNativeTarget "KDemo" */;
 			buildPhases = (
+				95CCE158F48AD053E641E658 /* [CP] Check Pods Manifest.lock */,
 				16441BC32061EE2C00D823FB /* Sources */,
 				16441BC42061EE2C00D823FB /* Frameworks */,
 				16441BC52061EE2C00D823FB /* Resources */,
@@ -240,7 +338,7 @@
 			files = (
 				16441BD72061EE2C00D823FB /* LaunchScreen.storyboard in Resources */,
 				16441BD42061EE2C00D823FB /* Assets.xcassets in Resources */,
-				16441BD22061EE2C00D823FB /* Main.storyboard in Resources */,
+				1635F01620634B63001AC9BD /* kData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +358,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		95CCE158F48AD053E641E658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		16441BC32061EE2C00D823FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F28BF12379351800B51844 /* Model.m in Sources */,
 				16441BCF2061EE2C00D823FB /* ViewController.m in Sources */,
+				16F28BE623790B4C00B51844 /* Director.m in Sources */,
 				16441BDA2061EE2C00D823FB /* main.m in Sources */,
 				16441BCC2061EE2C00D823FB /* AppDelegate.m in Sources */,
+				1663ED4C206CDE3A00F94599 /* KZhutaiView.m in Sources */,
+				16F28BEA2379306500B51844 /* ColorView.m in Sources */,
+				1640468B2318CEE800E346C3 /* AnimationController.m in Sources */,
+				16F28BE323790AC800B51844 /* ConcreteBuild.m in Sources */,
+				16F28BEE2379339D00B51844 /* ColorViewAdapter.m in Sources */,
+				16F28BF7237936AB00B51844 /* ModelViewAdapter.m in Sources */,
+				1663ED49206CC29F00F94599 /* KtimeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +431,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		16441BD02061EE2C00D823FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				16441BD12061EE2C00D823FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		16441BD52061EE2C00D823FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,11 +548,13 @@
 		};
 		16441BF42061EE2C00D823FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D727FA286AA15F7293730FD /* Pods-KDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4DYXRTRG42;
+				DEVELOPMENT_TEAM = FUKTAU73F4;
 				INFOPLIST_FILE = KDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iDaec.finance.KDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +564,13 @@
 		};
 		16441BF52061EE2C00D823FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390D3F8E7CCE2F36D7790341 /* Pods-KDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4DYXRTRG42;
+				DEVELOPMENT_TEAM = FUKTAU73F4;
 				INFOPLIST_FILE = KDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iDaec.finance.KDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
